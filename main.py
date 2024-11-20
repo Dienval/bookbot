@@ -22,7 +22,6 @@ def char_count():
                 if split_char in char_dict:
                     char_dict[split_char] += 1
                 else:
-                    print(f"{split_char} first instance - adding to dictionary")
                     char_dict[split_char] = 1
                     
         print(f"{char_dict}")
